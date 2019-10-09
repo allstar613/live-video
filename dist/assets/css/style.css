@@ -1,0 +1,4324 @@
+/* line 5, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+q, blockquote {
+  quotes: none;
+}
+
+/* line 103, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/_addtional_class.scss */
+
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 4, ../scss/_addtional_class.scss */
+
+.normal {
+  font-weight: normal !important;
+}
+
+/* line 7, ../scss/_addtional_class.scss */
+
+.bold {
+  font-weight: bold !important;
+}
+
+/* line 10, ../scss/_addtional_class.scss */
+
+.border-none {
+  border: none !important;
+}
+
+/* line 13, ../scss/_addtional_class.scss */
+
+.border-dashed {
+  border-style: dashed !important;
+}
+
+/* line 16, ../scss/_addtional_class.scss */
+
+.border-dotted {
+  border-style: dotted !important;
+}
+
+/* line 19, ../scss/_addtional_class.scss */
+
+.text-left {
+  text-align: left;
+}
+
+/* line 22, ../scss/_addtional_class.scss */
+
+.text-center {
+  text-align: center;
+}
+
+/* line 25, ../scss/_addtional_class.scss */
+
+.text-right {
+  text-align: right;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border1 {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius1 {
+  border-radius: 1px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border2 {
+  border-style: solid;
+  border-width: 2px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius2 {
+  border-radius: 2px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border3 {
+  border-style: solid;
+  border-width: 3px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius3 {
+  border-radius: 3px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border4 {
+  border-style: solid;
+  border-width: 4px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius4 {
+  border-radius: 4px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border5 {
+  border-style: solid;
+  border-width: 5px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius5 {
+  border-radius: 5px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border6 {
+  border-style: solid;
+  border-width: 6px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius6 {
+  border-radius: 6px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border7 {
+  border-style: solid;
+  border-width: 7px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius7 {
+  border-radius: 7px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border8 {
+  border-style: solid;
+  border-width: 8px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius8 {
+  border-radius: 8px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border9 {
+  border-style: solid;
+  border-width: 9px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius9 {
+  border-radius: 9px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border10 {
+  border-style: solid;
+  border-width: 10px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius10 {
+  border-radius: 10px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border11 {
+  border-style: solid;
+  border-width: 11px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius11 {
+  border-radius: 11px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border12 {
+  border-style: solid;
+  border-width: 12px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius12 {
+  border-radius: 12px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border13 {
+  border-style: solid;
+  border-width: 13px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius13 {
+  border-radius: 13px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border14 {
+  border-style: solid;
+  border-width: 14px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius14 {
+  border-radius: 14px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border15 {
+  border-style: solid;
+  border-width: 15px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius15 {
+  border-radius: 15px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border16 {
+  border-style: solid;
+  border-width: 16px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius16 {
+  border-radius: 16px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border17 {
+  border-style: solid;
+  border-width: 17px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius17 {
+  border-radius: 17px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border18 {
+  border-style: solid;
+  border-width: 18px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius18 {
+  border-radius: 18px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border19 {
+  border-style: solid;
+  border-width: 19px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius19 {
+  border-radius: 19px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border20 {
+  border-style: solid;
+  border-width: 20px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius20 {
+  border-radius: 20px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border21 {
+  border-style: solid;
+  border-width: 21px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius21 {
+  border-radius: 21px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border22 {
+  border-style: solid;
+  border-width: 22px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius22 {
+  border-radius: 22px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border23 {
+  border-style: solid;
+  border-width: 23px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius23 {
+  border-radius: 23px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border24 {
+  border-style: solid;
+  border-width: 24px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius24 {
+  border-radius: 24px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border25 {
+  border-style: solid;
+  border-width: 25px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius25 {
+  border-radius: 25px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border26 {
+  border-style: solid;
+  border-width: 26px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius26 {
+  border-radius: 26px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border27 {
+  border-style: solid;
+  border-width: 27px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius27 {
+  border-radius: 27px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border28 {
+  border-style: solid;
+  border-width: 28px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius28 {
+  border-radius: 28px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border29 {
+  border-style: solid;
+  border-width: 29px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius29 {
+  border-radius: 29px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border30 {
+  border-style: solid;
+  border-width: 30px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius30 {
+  border-radius: 30px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border31 {
+  border-style: solid;
+  border-width: 31px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius31 {
+  border-radius: 31px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border32 {
+  border-style: solid;
+  border-width: 32px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius32 {
+  border-radius: 32px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border33 {
+  border-style: solid;
+  border-width: 33px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius33 {
+  border-radius: 33px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border34 {
+  border-style: solid;
+  border-width: 34px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius34 {
+  border-radius: 34px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border35 {
+  border-style: solid;
+  border-width: 35px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius35 {
+  border-radius: 35px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border36 {
+  border-style: solid;
+  border-width: 36px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius36 {
+  border-radius: 36px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border37 {
+  border-style: solid;
+  border-width: 37px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius37 {
+  border-radius: 37px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border38 {
+  border-style: solid;
+  border-width: 38px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius38 {
+  border-radius: 38px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border39 {
+  border-style: solid;
+  border-width: 39px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius39 {
+  border-radius: 39px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border40 {
+  border-style: solid;
+  border-width: 40px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius40 {
+  border-radius: 40px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border41 {
+  border-style: solid;
+  border-width: 41px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius41 {
+  border-radius: 41px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border42 {
+  border-style: solid;
+  border-width: 42px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius42 {
+  border-radius: 42px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border43 {
+  border-style: solid;
+  border-width: 43px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius43 {
+  border-radius: 43px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border44 {
+  border-style: solid;
+  border-width: 44px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius44 {
+  border-radius: 44px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border45 {
+  border-style: solid;
+  border-width: 45px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius45 {
+  border-radius: 45px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border46 {
+  border-style: solid;
+  border-width: 46px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius46 {
+  border-radius: 46px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border47 {
+  border-style: solid;
+  border-width: 47px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius47 {
+  border-radius: 47px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border48 {
+  border-style: solid;
+  border-width: 48px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius48 {
+  border-radius: 48px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border49 {
+  border-style: solid;
+  border-width: 49px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius49 {
+  border-radius: 49px !important;
+}
+
+/* line 30, ../scss/_addtional_class.scss */
+
+.border50 {
+  border-style: solid;
+  border-width: 50px;
+}
+
+/* line 34, ../scss/_addtional_class.scss */
+
+.radius50 {
+  border-radius: 50px !important;
+}
+
+/* line 39, ../scss/_addtional_class.scss */
+
+.drag {
+  cursor: move;
+}
+
+/* line 42, ../scss/_addtional_class.scss */
+
+.click {
+  cursor: pointer;
+}
+
+/* line 45, ../scss/_addtional_class.scss */
+
+.inline-block {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+/* line 48, ../scss/_addtional_class.scss */
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 51, ../scss/_addtional_class.scss */
+
+.flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 54, ../scss/_addtional_class.scss */
+
+.inline-flex {
+  display: inline-flex;
+}
+
+/* line 57, ../scss/_addtional_class.scss */
+
+.flex-none {
+  -webkit-flex: none;
+  flex: none;
+}
+
+/* line 60, ../scss/_addtional_class.scss */
+
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 63, ../scss/_addtional_class.scss */
+
+.flex-1 {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/* line 66, ../scss/_addtional_class.scss */
+
+.flex-2 {
+  -webkit-flex: 2;
+  flex: 2;
+}
+
+/* line 69, ../scss/_addtional_class.scss */
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+/* line 72, ../scss/_addtional_class.scss */
+
+.align-items-left {
+  align-items: flex-start !important;
+}
+
+/* line 75, ../scss/_addtional_class.scss */
+
+.align-items-center {
+  align-items: center !important;
+}
+
+/* line 78, ../scss/_addtional_class.scss */
+
+.align-items-right {
+  align-items: flex-end !important;
+}
+
+/* line 81, ../scss/_addtional_class.scss */
+
+.child-start {
+  justify-content: flex-start !important;
+}
+
+/* line 84, ../scss/_addtional_class.scss */
+
+.child-center {
+  justify-content: center !important;
+}
+
+/* line 87, ../scss/_addtional_class.scss */
+
+.child-end {
+  justify-content: flex-end !important;
+}
+
+/* line 90, ../scss/_addtional_class.scss */
+
+.child-between {
+  justify-content: space-between !important;
+}
+
+/* line 93, ../scss/_addtional_class.scss */
+
+.child-space-around {
+  justify-content: space-around !important;
+}
+
+/* line 96, ../scss/_addtional_class.scss */
+
+.self-start {
+  align-self: flex-start !important;
+}
+
+/* line 99, ../scss/_addtional_class.scss */
+
+.self-center {
+  align-self: center !important;
+}
+
+/* line 102, ../scss/_addtional_class.scss */
+
+.self-end {
+  align-self: flex-end !important;
+}
+
+/* line 105, ../scss/_addtional_class.scss */
+
+.fz-p3 {
+  font-size: 3vmin !important;
+}
+
+.fz-p4 {
+  font-size: 4vmin !important;
+}
+
+.fz-p5 {
+  font-size: 5vmin !important;
+}
+
+.fz-p7 {
+  font-size: 7vmin !important;
+}
+
+.fz-0 {
+  font-size: 0 !important;
+}
+
+/* line 108, ../scss/_addtional_class.scss */
+
+.fz-12 {
+  font-size: 12px !important;
+}
+
+/* line 111, ../scss/_addtional_class.scss */
+
+.fz-xxsm {
+  font-size: .7rem !important;
+}
+
+/* line 114, ../scss/_addtional_class.scss */
+
+.fz-xsm {
+  font-size: .8rem !important;
+}
+
+/* line 117, ../scss/_addtional_class.scss */
+
+.fz-sm {
+  font-size: .9rem !important;
+}
+
+/* line 120, ../scss/_addtional_class.scss */
+
+.fz-md {
+  font-size: 1.1rem !important;
+}
+
+/* line 123, ../scss/_addtional_class.scss */
+
+.fz-md2 {
+  font-size: 1.2rem !important;
+}
+
+/* line 126, ../scss/_addtional_class.scss */
+
+.fz-md3 {
+  font-size: 1.3rem !important;
+}
+
+/* line 129, ../scss/_addtional_class.scss */
+
+.fz-lg {
+  font-size: 1.4rem !important;
+}
+
+/* line 132, ../scss/_addtional_class.scss */
+
+.fz-xlg {
+  font-size: 1.7rem !important;
+}
+
+/* line 135, ../scss/_addtional_class.scss */
+
+.fz-xxlg {
+  font-size: 2rem !important;
+}
+
+/* line 138, ../scss/_addtional_class.scss */
+
+.fz-xxxlg {
+  font-size: 2.5rem !important;
+}
+
+/* line 141, ../scss/_addtional_class.scss */
+
+.lh-sm {
+  line-height: 1;
+}
+
+/* line 144, ../scss/_addtional_class.scss */
+
+.lh-md {
+  line-height: 1.2;
+}
+
+/* line 147, ../scss/_addtional_class.scss */
+
+.lh-lg {
+  line-height: 1.4;
+}
+
+/* line 150, ../scss/_addtional_class.scss */
+
+.text-white {
+  color: #fff;
+}
+
+/* line 153, ../scss/_addtional_class.scss */
+
+.text-blue {
+  color: #3674b0 !important;
+}
+
+/* line 156, ../scss/_addtional_class.scss */
+
+.text-blue2 {
+  color: #3587f7 !important;
+}
+
+/* line 159, ../scss/_addtional_class.scss */
+
+.text-blue3 {
+  color: #5d9cec !important;
+}
+
+/* line 162, ../scss/_addtional_class.scss */
+
+.text-yellow {
+  color: #ffce54 !important;
+}
+
+/* line 165, ../scss/_addtional_class.scss */
+
+.text-orange {
+  color: #f47852 !important;
+}
+
+/* line 168, ../scss/_addtional_class.scss */
+
+.text-orange2 {
+  color: #f88d76 !important;
+}
+
+.text-orange3 {
+  color: #e6501b
+}
+
+/* line 171, ../scss/_addtional_class.scss */
+
+.text-green {
+  color: #48cfad !important;
+}
+
+/* line 174, ../scss/_addtional_class.scss */
+
+.text-green2 {
+  color: #a0d468 !important;
+}
+
+/* line 177, ../scss/_addtional_class.scss */
+
+.text-purple {
+  color: #5151e5 !important;
+}
+
+/* line 180, ../scss/_addtional_class.scss */
+
+.text-purple1 {
+  color: #dcdcf9 !important;
+}
+
+/* line 183, ../scss/_addtional_class.scss */
+
+.text-purple2 {
+  color: #7873ec !important;
+}
+
+/* line 186, ../scss/_addtional_class.scss */
+
+.text-purple3 {
+  color: #5151e5 !important;
+}
+
+/* line 189, ../scss/_addtional_class.scss */
+
+.text-purple4 {
+  color: #d770ad !important;
+}
+
+/* line 192, ../scss/_addtional_class.scss */
+
+.text-red {
+  color: #cf171e !important;
+}
+
+/* line 195, ../scss/_addtional_class.scss */
+
+.text-brown {
+  color: #795548 !important;
+}
+
+/* line 198, ../scss/_addtional_class.scss */
+
+.text-grey {
+  color: #b9b9b9 !important;
+}
+
+/* line 201, ../scss/_addtional_class.scss */
+
+.text-grey2 {
+  color: #898989 !important;
+}
+
+/* line 204, ../scss/_addtional_class.scss */
+
+.text-grey3 {
+  color: #3c3c3c !important;
+}
+
+/* line 207, ../scss/_addtional_class.scss */
+
+.text-dark-grey {
+  color: #484747 !important;
+}
+
+/* line 210, ../scss/_addtional_class.scss */
+
+.text-underline {
+  text-decoration: underline;
+}
+
+/* line 214, ../scss/_addtional_class.scss */
+
+.text-bot-yellow {
+  color: #f6bb42;
+}
+
+/* line 217, ../scss/_addtional_class.scss */
+
+.text-bot-blue {
+  color: #4fc1e9;
+}
+
+/* line 220, ../scss/_addtional_class.scss */
+
+.text-bot-red {
+  color: #fc6e51;
+}
+
+/* line 223, ../scss/_addtional_class.scss */
+
+.bg-purple1 {
+  background-color: #5151e5 !important;
+}
+
+/* line 226, ../scss/_addtional_class.scss */
+
+.bg-purple2 {
+  background-color: #7873ec !important;
+}
+
+/* line 229, ../scss/_addtional_class.scss */
+
+.bg-purple3 {
+  background-color: #dcdcf9 !important;
+}
+
+/* line 232, ../scss/_addtional_class.scss */
+
+.bg-purple4 {
+  background-color: #d770ad !important;
+}
+
+/* line 235, ../scss/_addtional_class.scss */
+
+.bg-blue {
+  background-color: #3674b0 !important;
+}
+
+/* line 238, ../scss/_addtional_class.scss */
+
+.bg-blue2 {
+  background-color: #3587f7 !important;
+}
+
+/* line 241, ../scss/_addtional_class.scss */
+
+.bg-blue3 {
+  background-color: #5d9cec !important;
+}
+
+/* line 244, ../scss/_addtional_class.scss */
+
+.bg-yellow {
+  background-color: #ffce54 !important;
+}
+
+/* line 247, ../scss/_addtional_class.scss */
+
+.bg-orange {
+  background-color: #f47852 !important;
+}
+
+/* line 250, ../scss/_addtional_class.scss */
+
+.bg-green {
+  background-color: #48cfad !important;
+}
+
+/* line 253, ../scss/_addtional_class.scss */
+
+.bg-green2 {
+  background-color: #a0d468 !important;
+}
+
+/* line 256, ../scss/_addtional_class.scss */
+
+.bg-red {
+  background-color: #cf171e !important;
+}
+
+/* line 259, ../scss/_addtional_class.scss */
+
+.bg-brown {
+  background-color: #795548 !important;
+}
+
+/* line 262, ../scss/_addtional_class.scss */
+
+.bg-grey1 {
+  background-color: #b9b9b9 !important;
+}
+
+/* line 265, ../scss/_addtional_class.scss */
+
+.bg-grey2 {
+  background-color: #898989 !important;
+}
+
+/* line 268, ../scss/_addtional_class.scss */
+
+.bg-grey3 {
+  background-color: #3c3c3c !important;
+}
+
+/* line 271, ../scss/_addtional_class.scss */
+
+.bg-grey4 {
+  background-color: #1e1e1e !important;
+}
+
+/* line 274, ../scss/_addtional_class.scss */
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+/* line 277, ../scss/_addtional_class.scss */
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+/* line 280, ../scss/_addtional_class.scss */
+
+.border-purple1 {
+  border-color: #5151e5 !important;
+}
+
+/* line 283, ../scss/_addtional_class.scss */
+
+.border-purple2 {
+  border-color: #7873ec !important;
+}
+
+/* line 286, ../scss/_addtional_class.scss */
+
+.border-purple3 {
+  border-color: #dcdcf9 !important;
+}
+
+/* line 289, ../scss/_addtional_class.scss */
+
+.border-purple4 {
+  border-color: #d770ad !important;
+}
+
+/* line 292, ../scss/_addtional_class.scss */
+
+.border-blue {
+  border-color: #3674b0 !important;
+}
+
+/* line 295, ../scss/_addtional_class.scss */
+
+.border-blue2 {
+  border-color: #3587f7 !important;
+}
+
+/* line 298, ../scss/_addtional_class.scss */
+
+.border-blue3 {
+  border-color: #5d9cec !important;
+}
+
+/* line 301, ../scss/_addtional_class.scss */
+
+.border-yellow {
+  border-color: #ffce54 !important;
+}
+
+/* line 304, ../scss/_addtional_class.scss */
+
+.border-orange {
+  border-color: #f47852 !important;
+}
+
+/* line 307, ../scss/_addtional_class.scss */
+
+.border-green {
+  border-color: #48cfad !important;
+}
+
+/* line 310, ../scss/_addtional_class.scss */
+
+.border-green2 {
+  border-color: #a0d468 !important;
+}
+
+/* line 313, ../scss/_addtional_class.scss */
+
+.border-red {
+  border-color: #cf171e !important;
+}
+
+/* line 316, ../scss/_addtional_class.scss */
+
+.border-grey1 {
+  border-color: #b9b9b9 !important;
+}
+
+/* line 319, ../scss/_addtional_class.scss */
+
+.border-grey2 {
+  border-color: #898989 !important;
+}
+
+/* line 322, ../scss/_addtional_class.scss */
+
+.border-grey3 {
+  border-color: #3c3c3c !important;
+}
+
+/* line 325, ../scss/_addtional_class.scss */
+
+.border-grey4 {
+  border-color: #1e1e1e !important;
+}
+
+/* line 328, ../scss/_addtional_class.scss */
+
+.border-black {
+  border-color: #000 !important;
+}
+
+/* line 331, ../scss/_addtional_class.scss */
+
+.show {
+  display: block !important;
+}
+
+/* line 334, ../scss/_addtional_class.scss */
+
+.hide {
+  display: none !important;
+}
+
+/* line 337, ../scss/_addtional_class.scss */
+
+.fll {
+  float: left !important;
+}
+
+/* line 340, ../scss/_addtional_class.scss */
+
+.flr {
+  float: right !important;
+}
+
+/* line 343, ../scss/_addtional_class.scss */
+
+.p_relative {
+  position: relative !important;
+}
+
+/* line 346, ../scss/_addtional_class.scss */
+
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 349, ../scss/_addtional_class.scss */
+
+.no-padding-left {
+  padding-left: 0 !important;
+}
+
+/* line 352, ../scss/_addtional_class.scss */
+
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+/* line 355, ../scss/_addtional_class.scss */
+
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 358, ../scss/_addtional_class.scss */
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+/* line 361, ../scss/_addtional_class.scss */
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w5 {
+  width: 5px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h5 {
+  height: 5px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w10 {
+  width: 10px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h10 {
+  height: 10px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w15 {
+  width: 15px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h15 {
+  height: 15px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w20 {
+  width: 20px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h20 {
+  height: 20px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w25 {
+  width: 25px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h25 {
+  height: 25px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w30 {
+  width: 30px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h30 {
+  height: 30px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w35 {
+  width: 35px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h35 {
+  height: 35px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w40 {
+  width: 40px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h40 {
+  height: 40px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w45 {
+  width: 45px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h45 {
+  height: 45px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w50 {
+  width: 50px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h50 {
+  height: 50px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w55 {
+  width: 55px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h55 {
+  height: 55px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w60 {
+  width: 60px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h60 {
+  height: 60px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w65 {
+  width: 65px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h65 {
+  height: 65px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w70 {
+  width: 70px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h70 {
+  height: 70px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w75 {
+  width: 75px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h75 {
+  height: 75px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w80 {
+  width: 80px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h80 {
+  height: 80px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w85 {
+  width: 85px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h85 {
+  height: 85px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w90 {
+  width: 90px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h90 {
+  height: 90px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w95 {
+  width: 95px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h95 {
+  height: 95px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w100 {
+  width: 100px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h100 {
+  height: 100px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w105 {
+  width: 105px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h105 {
+  height: 105px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w110 {
+  width: 110px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h110 {
+  height: 110px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w115 {
+  width: 115px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h115 {
+  height: 115px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w120 {
+  width: 120px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h120 {
+  height: 120px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w125 {
+  width: 125px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h125 {
+  height: 125px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w130 {
+  width: 130px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h130 {
+  height: 130px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w135 {
+  width: 135px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h135 {
+  height: 135px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w140 {
+  width: 140px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h140 {
+  height: 140px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w145 {
+  width: 145px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h145 {
+  height: 145px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w150 {
+  width: 150px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h150 {
+  height: 150px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w155 {
+  width: 155px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h155 {
+  height: 155px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w160 {
+  width: 160px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h160 {
+  height: 160px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w165 {
+  width: 165px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h165 {
+  height: 165px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w170 {
+  width: 170px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h170 {
+  height: 170px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w175 {
+  width: 175px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h175 {
+  height: 175px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w180 {
+  width: 180px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h180 {
+  height: 180px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w185 {
+  width: 185px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h185 {
+  height: 185px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w190 {
+  width: 190px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h190 {
+  height: 190px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w195 {
+  width: 195px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h195 {
+  height: 195px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w200 {
+  width: 200px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h200 {
+  height: 200px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w205 {
+  width: 205px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h205 {
+  height: 205px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w210 {
+  width: 210px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h210 {
+  height: 210px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w215 {
+  width: 215px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h215 {
+  height: 215px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w220 {
+  width: 220px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h220 {
+  height: 220px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w225 {
+  width: 225px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h225 {
+  height: 225px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w230 {
+  width: 230px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h230 {
+  height: 230px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w235 {
+  width: 235px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h235 {
+  height: 235px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w240 {
+  width: 240px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h240 {
+  height: 240px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w245 {
+  width: 245px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h245 {
+  height: 245px !important;
+}
+
+/* line 365, ../scss/_addtional_class.scss */
+
+.w250 {
+  width: 250px !important;
+}
+
+/* line 368, ../scss/_addtional_class.scss */
+
+.h250 {
+  height: 250px !important;
+}
+
+/* line 372, ../scss/_addtional_class.scss */
+
+.w100p {
+  width: 100% !important;
+}
+
+/* line 375, ../scss/_addtional_class.scss */
+
+.min-w100p {
+  min-width: 100% !important;
+}
+
+/* line 378, ../scss/_addtional_class.scss */
+
+.max-w100p {
+  max-width: 100% !important;
+}
+
+/* line 381, ../scss/_addtional_class.scss */
+
+.h100p {
+  height: 100% !important;
+}
+
+/* line 384, ../scss/_addtional_class.scss */
+
+.min-h100p {
+  min-height: 100% !important;
+}
+
+/* line 387, ../scss/_addtional_class.scss */
+
+.max-h100p {
+  max-height: 100% !important;
+}
+
+/* line 390, ../scss/_addtional_class.scss */
+
+.w-fit {
+  width: fit-content;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m0 {
+  margin: 0px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt0 {
+  margin-top: 0px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb-p1 {
+  margin-bottom: 1% !important;
+}
+
+.mb-p2 {
+  margin-bottom: 2% !important;
+}
+
+.mt-p5 {
+  margin-top: 5% !important;
+}
+
+.mb-p5 {
+  margin-bottom: 5% !important;
+}
+
+.mb-p8 {
+  margin-bottom: 8% !important;
+}
+
+.mb-p10 {
+  margin-bottom: 10% !important;
+}
+
+.mb0 {
+  margin-bottom: 0px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr0 {
+  margin-right: 0px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml0 {
+  margin-left: 0px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p0 {
+  padding: 0px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt0 {
+  padding-top: 0px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl0 {
+  padding-left: 0px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr0 {
+  padding-right: 0px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb0 {
+  padding-bottom: 0px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m5 {
+  margin: 5px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt5 {
+  margin-top: 5px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb5 {
+  margin-bottom: 5px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr5 {
+  margin-right: 5px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml5 {
+  margin-left: 5px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p5 {
+  padding: 5px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt5 {
+  padding-top: 5px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl5 {
+  padding-left: 5px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr5 {
+  padding-right: 5px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb5 {
+  padding-bottom: 5px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m10 {
+  margin: 10px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt10 {
+  margin-top: 10px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr10 {
+  margin-right: 10px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml10 {
+  margin-left: 10px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p10 {
+  padding: 10px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt10 {
+  padding-top: 10px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl10 {
+  padding-left: 10px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr10 {
+  padding-right: 10px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb10 {
+  padding-bottom: 10px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m15 {
+  margin: 15px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt15 {
+  margin-top: 15px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb15 {
+  margin-bottom: 15px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr15 {
+  margin-right: 15px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml15 {
+  margin-left: 15px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p15 {
+  padding: 15px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt15 {
+  padding-top: 15px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl15 {
+  padding-left: 15px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr15 {
+  padding-right: 15px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb15 {
+  padding-bottom: 15px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m20 {
+  margin: 20px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt20 {
+  margin-top: 20px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr20 {
+  margin-right: 20px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml20 {
+  margin-left: 20px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p20 {
+  padding: 20px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt20 {
+  padding-top: 20px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl20 {
+  padding-left: 20px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr20 {
+  padding-right: 20px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb20 {
+  padding-bottom: 20px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m25 {
+  margin: 25px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt25 {
+  margin-top: 25px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb25 {
+  margin-bottom: 25px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr25 {
+  margin-right: 25px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml25 {
+  margin-left: 25px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p25 {
+  padding: 25px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt25 {
+  padding-top: 25px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl25 {
+  padding-left: 25px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr25 {
+  padding-right: 25px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb25 {
+  padding-bottom: 25px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m30 {
+  margin: 30px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb30 {
+  margin-bottom: 30px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr30 {
+  margin-right: 30px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml30 {
+  margin-left: 30px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p30 {
+  padding: 30px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt30 {
+  padding-top: 30px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl30 {
+  padding-left: 30px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr30 {
+  padding-right: 30px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb30 {
+  padding-bottom: 30px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m35 {
+  margin: 35px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt35 {
+  margin-top: 35px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb35 {
+  margin-bottom: 35px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr35 {
+  margin-right: 35px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml35 {
+  margin-left: 35px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p35 {
+  padding: 35px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt35 {
+  padding-top: 35px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl35 {
+  padding-left: 35px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr35 {
+  padding-right: 35px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb35 {
+  padding-bottom: 35px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m40 {
+  margin: 40px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt40 {
+  margin-top: 40px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb40 {
+  margin-bottom: 40px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr40 {
+  margin-right: 40px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml40 {
+  margin-left: 40px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p40 {
+  padding: 40px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt40 {
+  padding-top: 40px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl40 {
+  padding-left: 40px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr40 {
+  padding-right: 40px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb40 {
+  padding-bottom: 40px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m45 {
+  margin: 45px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt45 {
+  margin-top: 45px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb45 {
+  margin-bottom: 45px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr45 {
+  margin-right: 45px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml45 {
+  margin-left: 45px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p45 {
+  padding: 45px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt45 {
+  padding-top: 45px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl45 {
+  padding-left: 45px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr45 {
+  padding-right: 45px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb45 {
+  padding-bottom: 45px !important;
+}
+
+/* line 394, ../scss/_addtional_class.scss */
+
+.m50 {
+  margin: 50px !important;
+}
+
+/* line 397, ../scss/_addtional_class.scss */
+
+.mt50 {
+  margin-top: 50px !important;
+}
+
+/* line 400, ../scss/_addtional_class.scss */
+
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+/* line 403, ../scss/_addtional_class.scss */
+
+.mr50 {
+  margin-right: 50px !important;
+}
+
+/* line 406, ../scss/_addtional_class.scss */
+
+.ml50 {
+  margin-left: 50px !important;
+}
+
+/* line 409, ../scss/_addtional_class.scss */
+
+.p50 {
+  padding: 50px !important;
+}
+
+/* line 412, ../scss/_addtional_class.scss */
+
+.pt50 {
+  padding-top: 50px !important;
+}
+
+/* line 415, ../scss/_addtional_class.scss */
+
+.pl50 {
+  padding-left: 50px !important;
+}
+
+/* line 418, ../scss/_addtional_class.scss */
+
+.pr50 {
+  padding-right: 50px !important;
+}
+
+/* line 421, ../scss/_addtional_class.scss */
+
+.pb50 {
+  padding-bottom: 50px !important;
+}
+
+/* line 426, ../scss/_addtional_class.scss */
+
+.left0 {
+  left: 0px !important;
+}
+
+/* line 426, ../scss/_addtional_class.scss */
+
+.left5 {
+  left: 5px !important;
+}
+
+/* line 426, ../scss/_addtional_class.scss */
+
+.left10 {
+  left: 10px !important;
+}
+
+/* line 426, ../scss/_addtional_class.scss */
+
+.left15 {
+  left: 15px !important;
+}
+
+/* line 426, ../scss/_addtional_class.scss */
+
+.left20 {
+  left: 20px !important;
+}
+
+/* line 431, ../scss/_addtional_class.scss */
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size-p8 {
+  width: 8vmin;
+  height: 8vmin;
+}
+
+.size1 {
+  width: 1px;
+  height: 1px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size2 {
+  width: 2px;
+  height: 2px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size3 {
+  width: 3px;
+  height: 3px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size4 {
+  width: 4px;
+  height: 4px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size5 {
+  width: 5px;
+  height: 5px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size6 {
+  width: 6px;
+  height: 6px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size7 {
+  width: 7px;
+  height: 7px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size8 {
+  width: 8px;
+  height: 8px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size9 {
+  width: 9px;
+  height: 9px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size10 {
+  width: 10px;
+  height: 10px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size11 {
+  width: 11px;
+  height: 11px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size12 {
+  width: 12px;
+  height: 12px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size13 {
+  width: 13px;
+  height: 13px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size14 {
+  width: 14px;
+  height: 14px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size15 {
+  width: 15px;
+  height: 15px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size16 {
+  width: 16px;
+  height: 16px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size17 {
+  width: 17px;
+  height: 17px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size18 {
+  width: 18px;
+  height: 18px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size19 {
+  width: 19px;
+  height: 19px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size20 {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size21 {
+  width: 21px;
+  height: 21px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size22 {
+  width: 22px;
+  height: 22px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size23 {
+  width: 23px;
+  height: 23px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size24 {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size25 {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size26 {
+  width: 26px;
+  height: 26px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size27 {
+  width: 27px;
+  height: 27px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size28 {
+  width: 28px;
+  height: 28px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size29 {
+  width: 29px;
+  height: 29px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size30 {
+  width: 30px;
+  height: 30px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size31 {
+  width: 31px;
+  height: 31px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size32 {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size33 {
+  width: 33px;
+  height: 33px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size34 {
+  width: 34px;
+  height: 34px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size35 {
+  width: 35px;
+  height: 35px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size36 {
+  width: 36px;
+  height: 36px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size37 {
+  width: 37px;
+  height: 37px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size38 {
+  width: 38px;
+  height: 38px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size39 {
+  width: 39px;
+  height: 39px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size40 {
+  width: 40px;
+  height: 40px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size41 {
+  width: 41px;
+  height: 41px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size42 {
+  width: 42px;
+  height: 42px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size43 {
+  width: 43px;
+  height: 43px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size44 {
+  width: 44px;
+  height: 44px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size45 {
+  width: 45px;
+  height: 45px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size46 {
+  width: 46px;
+  height: 46px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size47 {
+  width: 47px;
+  height: 47px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size48 {
+  width: 48px;
+  height: 48px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size49 {
+  width: 49px;
+  height: 49px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size50 {
+  width: 50px;
+  height: 50px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size51 {
+  width: 51px;
+  height: 51px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size52 {
+  width: 52px;
+  height: 52px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size53 {
+  width: 53px;
+  height: 53px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size54 {
+  width: 54px;
+  height: 54px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size55 {
+  width: 55px;
+  height: 55px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size56 {
+  width: 56px;
+  height: 56px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size57 {
+  width: 57px;
+  height: 57px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size58 {
+  width: 58px;
+  height: 58px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size59 {
+  width: 59px;
+  height: 59px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size60 {
+  width: 60px;
+  height: 60px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size61 {
+  width: 61px;
+  height: 61px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size62 {
+  width: 62px;
+  height: 62px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size63 {
+  width: 63px;
+  height: 63px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size64 {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size65 {
+  width: 65px;
+  height: 65px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size66 {
+  width: 66px;
+  height: 66px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size67 {
+  width: 67px;
+  height: 67px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size68 {
+  width: 68px;
+  height: 68px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size69 {
+  width: 69px;
+  height: 69px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size70 {
+  width: 70px;
+  height: 70px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size71 {
+  width: 71px;
+  height: 71px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size72 {
+  width: 72px;
+  height: 72px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size73 {
+  width: 73px;
+  height: 73px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size74 {
+  width: 74px;
+  height: 74px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size75 {
+  width: 75px;
+  height: 75px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size76 {
+  width: 76px;
+  height: 76px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size77 {
+  width: 77px;
+  height: 77px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size78 {
+  width: 78px;
+  height: 78px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size79 {
+  width: 79px;
+  height: 79px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size80 {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size81 {
+  width: 81px;
+  height: 81px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size82 {
+  width: 82px;
+  height: 82px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size83 {
+  width: 83px;
+  height: 83px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size84 {
+  width: 84px;
+  height: 84px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size85 {
+  width: 85px;
+  height: 85px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size86 {
+  width: 86px;
+  height: 86px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size87 {
+  width: 87px;
+  height: 87px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size88 {
+  width: 88px;
+  height: 88px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size89 {
+  width: 89px;
+  height: 89px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size90 {
+  width: 90px;
+  height: 90px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size91 {
+  width: 91px;
+  height: 91px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size92 {
+  width: 92px;
+  height: 92px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size93 {
+  width: 93px;
+  height: 93px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size94 {
+  width: 94px;
+  height: 94px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size95 {
+  width: 95px;
+  height: 95px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size96 {
+  width: 96px;
+  height: 96px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size97 {
+  width: 97px;
+  height: 97px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size98 {
+  width: 98px;
+  height: 98px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size99 {
+  width: 99px;
+  height: 99px;
+}
+
+/* line 439, ../scss/_addtional_class.scss */
+
+.size100 {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 446, ../scss/_addtional_class.scss */
+
+.grey-theme {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+/* line 1, ../scss/_icon.scss */
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  line-height: 0;
+}
+
+/* line 8, ../scss/_icon.scss */
+
+.icon.circle {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-navi_back {
+  background-image: url("../images/icn_navi_back.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-cs {
+  background-image: url("../images/icn_cs.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-play {
+  background-image: url("../images/icn_play.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-play2 {
+  background-image: url("../images/icn_play2.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-play3 {
+  background-image: url("../images/icn_play3.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-pad {
+  background-image: url("../images/icn_pad.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-check {
+  background-image: url("../images/icn_check.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-qrcode {
+  background-image: url("../images/icn_qrcode.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-like {
+  background-image: url("../images/icn_like.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-view {
+  background-image: url("../images/icn_view.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-arrow-left {
+  background-image: url("../images/icn_arrow-left.png");
+}
+
+/* line 16, ../scss/_icon.scss */
+
+.icon-arrow-right {
+  background-image: url("../images/icn_arrow-right.png");
+}
+
+/* line 1, ../scss/_ui.scss */
+
+.playvideo-title {
+  width: 100%;
+  height: 6%;
+  background-color: #232323;
+  color: #fff;
+}
+
+.ui-divider2 {
+  width: 1px;
+  background:  #d9d9d9;
+  padding-bottom: .8rem;
+  padding-top: .8rem;
+  margin: 0 10px;
+  height: 1%;
+}
+
+.ui-divider {
+  width: 1px;
+  background: #000;
+  padding-bottom: .8rem;
+  padding-top: .8rem;
+  margin: 0 10px;
+  height: 1%;
+}
+
+/* line 7, ../scss/_ui.scss */
+
+.ui-divider.sm {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+}
+
+/* line 11, ../scss/_ui.scss */
+
+.ui-divider.lg {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* line 15, ../scss/_ui.scss */
+
+.ui-divider.light {
+  background: #eee;
+}
+
+/* line 19, ../scss/_ui.scss */
+
+.floating-Guide {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+}
+
+.floating-button {
+  z-index: 1;
+  position: fixed;
+  top: 15em;
+  right: 10px;
+}
+
+/* line 24, ../scss/_ui.scss */
+
+.floating-button .black-button {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #000;
+  color: #fff;
+  width: 38px;
+  height: 38px;
+}
+
+/* line 34, ../scss/_ui.scss */
+
+.floating-button .orange-button {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0Nzg1MiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2OGY1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #f47852), color-stop(100%, #f68f5b));
+  background-image: -moz-linear-gradient(bottom, #f47852, #f68f5b);
+  background-image: -webkit-linear-gradient(bottom, #f47852, #f68f5b);
+  background-image: linear-gradient(to top, #f47852, #f68f5b);
+  -moz-box-shadow: 0 4px 6px 0 rgba(30, 36, 43, 0.32);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(30, 36, 43, 0.32);
+  box-shadow: 0 4px 6px 0 rgba(30, 36, 43, 0.32);
+  width: 60px;
+  height: 60px;
+}
+
+/* line 47, ../scss/_ui.scss */
+
+.ui-input-text {
+  position: relative;
+  width: 100%;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  display: -webkit-flex;
+  display: flex;
+  border: 1px solid #ccd1d9;
+  background-color: #fff;
+}
+
+/* line 54, ../scss/_ui.scss */
+
+.ui-input-text.disabled {
+  background-color: #eee;
+}
+
+/* line 57, ../scss/_ui.scss */
+
+.ui-input-text input[type="text"], .ui-input-text input[type="password"] {
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  line-height: inherit;
+  color: #2e333a;
+  font-size: .9rem;
+}
+
+/* line 67, ../scss/_ui.scss */
+
+.ui-select {
+  width: 100%;
+  color: #2e333a;
+  padding-right: 10px;
+}
+
+/* line 71, ../scss/_ui.scss */
+
+.ui-select select {
+  line-height: inherit;
+  width: 100%;
+  height: 37px;
+  border: none;
+  background: transparent;
+  font-size: .9rem;
+}
+
+/* line 84, ../scss/_ui.scss */
+
+.ui-textarea {
+  resize: none;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  line-height: inherit;
+  color: #2e333a;
+  font-size: .9rem;
+}
+
+/* line 93, ../scss/_ui.scss */
+
+.ui-textarea.line {
+  border: 1px solid #808080;
+  background-color: #fff;
+}
+
+/* line 98, ../scss/_ui.scss */
+
+.ui-button {
+  padding: 5px 15px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #b9b9b9;
+  color: #3c3c3c;
+  font-size: 1rem;
+}
+
+/* line 107, ../scss/_ui.scss */
+
+.ui-button.outline {
+  background: #fff;
+  background-image: none;
+  box-shadow: none;
+  border: 1px solid #b9b9b9;
+  color: #b9b9b9;
+}
+
+/* line 114, ../scss/_ui.scss */
+
+.ui-button.no-shadow {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 117, ../scss/_ui.scss */
+
+.ui-button.-orange {
+  background-color: #e6501b;
+}
+
+/* line 120, ../scss/_ui.scss */
+
+.ui-button.-green {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYzZDBiOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdiZGNjYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #63d0b9), color-stop(100%, #7bdccc));
+  background-image: -moz-linear-gradient(top, #63d0b9, #7bdccc);
+  background-image: -webkit-linear-gradient(top, #63d0b9, #7bdccc);
+  background-image: linear-gradient(to bottom, #63d0b9, #7bdccc);
+}
+
+/* line 123, ../scss/_ui.scss */
+
+.ui-button.-blue {
+  background-color: #3674b0;
+  color: #fff;
+}
+
+/* line 127, ../scss/_ui.scss */
+
+.ui-button.-purple {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E4NzBmYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M4OGZmZSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a870fc), color-stop(100%, #c88ffe));
+  background-image: -moz-linear-gradient(top, #a870fc, #c88ffe);
+  background-image: -webkit-linear-gradient(top, #a870fc, #c88ffe);
+  background-image: linear-gradient(to bottom, #a870fc, #c88ffe);
+}
+
+/* line 131, ../scss/_ui.scss */
+
+.mainbackground {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.ui-dialog {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 137, ../scss/_ui.scss */
+
+.ui-dialog .window {
+  position: absolute;
+  left: calc(50% - 135px);
+  top: 50%;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  width: 270px;
+  min-height: 150px;
+  background-color: rgba(255, 255, 255, 0.85);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* line 150, ../scss/_ui.scss */
+
+.ui-dialog .window--contents {
+  padding: 25px;
+  text-align: center;
+  color: #545454;
+}
+
+/* line 154, ../scss/_ui.scss */
+
+.ui-dialog .window--contents .dialog-title {
+  font-size: .9rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 159, ../scss/_ui.scss */
+
+.ui-dialog .window--contents .dialog-subtitle {
+  font-size: .8rem;
+  line-height: 1.3;
+}
+
+/* line 163, ../scss/_ui.scss */
+
+.ui-dialog .window--contents .divider-content {
+  border-top: 1px dotted #3c3c3c;
+  margin-top: 15px;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+/* line 171, ../scss/_ui.scss */
+
+.ui-dialog .window--buttons {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 44px;
+  border-top: 1px solid #d9d9d9;
+}
+
+/* line 177, ../scss/_ui.scss */
+
+.ui-dialog .window--buttons .ui-divider {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 181, ../scss/_ui.scss */
+
+.ui-dialog .window--buttons a {
+  flex: auto;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007aff;
+  font-size: .8rem;
+}
+
+/* line 189, ../scss/_ui.scss */
+
+.ui-dialog .window--buttons a._blue {
+  background-color: #3674b0;
+  color: #fff;
+}
+
+/* line 196, ../scss/_ui.scss */
+
+.ui-dialog .window2 {
+  position: absolute;
+  left: calc(50% - 150px);
+  top: 50%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 300px;
+  min-height: 150px;
+  padding: 10px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 209, ../scss/_ui.scss */
+
+.ui-dialog .window2 .window-close {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+
+/* line 213, ../scss/_ui.scss */
+
+.ui-dialog .window2 .window-close .close-button {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #484747;
+  width: 30px;
+  height: 30px;
+}
+
+/* line 12, ../scss/style.scss */
+
+* {
+  box-sizing: border-box;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+/* line 15, ../scss/style.scss */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", 'Microsoft JhengHei', Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #ebebeb;
+}
+
+/* line 24, ../scss/style.scss */
+
+img {
+  vertical-align: middle;
+}
+
+/* line 27, ../scss/style.scss */
+
+a {
+  color: #484747;
+  text-decoration: none;
+}
+
+/* line 31, ../scss/style.scss */
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #3c3c3c;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* line 36, ../scss/style.scss */
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #3c3c3c;
+}
+
+/* line 39, ../scss/style.scss */
+
+input:focus, select:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+/* line 45, ../scss/style.scss */
+
+hr {
+  border: none;
+  /* border-bottom: 1px solid #ccc; */
+  background: #eee;
+  height: 1px;
+}
+
+/* line 52, ../scss/style.scss */
+
+main header {
+  position: relative;
+  min-height: 50px;
+  background-color: #ebebeb;
+}
+
+/* line 56, ../scss/style.scss */
+
+main header .system-bar {
+  font-size: .8rem;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+/* line 62, ../scss/style.scss */
+
+main header .header--title-bar {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* line 67, ../scss/style.scss */
+
+main header .header--title-bar a {
+  display: block;
+  font-size: .8rem;
+}
+
+/* line 71, ../scss/style.scss */
+
+main header .header--title-bar h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* line 79, ../scss/style.scss */
+
+.scroll-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* line 87, ../scss/style.scss */
+
+.video-list {
+  padding: 5px 12px;
+}
+
+/* line 90, ../scss/style.scss */
+
+.video-list ul li {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 18px;
+  margin-bottom: 10px;
+}
+
+/* line 97, ../scss/style.scss */
+
+.video-list ul li .img-video {
+  width: 75px;
+}
+
+/* line 103, ../scss/style.scss */
+
+.video-view {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+/* line 108, ../scss/style.scss */
+
+.hot-recommend {
+  padding-left: 3%;
+  padding-right: 3%
+}
+
+/* line 110, ../scss/style.scss */
+
+.hot-recommend h5 {
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+/* line 114, ../scss/style.scss */
+
+.hot-recommend ul {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 118, ../scss/style.scss */
+
+.hot-recommend ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* line 121, ../scss/style.scss */
+
+.hot-recommend ul li a {
+  display: block;
+  width: 75px;
+}
+
+/* line 126, ../scss/style.scss */
+
+.hot-recommend ul li img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* line 130, ../scss/style.scss */
+
+.hot-recommend ul li p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 138, ../scss/style.scss */
+
+.pagination {
+  border-top: 1px solid #999;
+  padding: 18px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 147, ../scss/style.scss */
+
+.wechat-box {
+  text-align: center;
+  background-color: #2b9d3b;
+  width: 237px;
+  margin: 0 auto;
+  -moz-box-shadow: -1.3px 3px 1.6px 0 rgba(43, 43, 43, 0.5);
+  -webkit-box-shadow: -1.3px 3px 1.6px 0 rgba(43, 43, 43, 0.5);
+  box-shadow: -1.3px 3px 1.6px 0 rgba(43, 43, 43, 0.5);
+}
+
+/* line 153, ../scss/style.scss */
+
+.wechat-box__middle {
+  padding: 30px;
+  color: #fff;
+}
+
+/* line 157, ../scss/style.scss */
+
+.wechat-box__footer {
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* line 163, ../scss/style.scss */
+
+.scan-pay {
+  width: 237px;
+  margin: 0 auto;
+}
+
+/* line 166, ../scss/style.scss */
+
+.scan-pay--title {
+  padding: 1.5%;
+  color: #3c3c3c;
+  text-align: center;
+  border-bottom: 1px dotted #3c3c3c;
+}
+
+/* line 173, ../scss/style.scss */
+
+.scan-pay--list ul {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+/* line 177, ../scss/style.scss */
+
+.scan-pay--list ul li {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 181, ../scss/style.scss */
+
+.scan-pay--list ul li i {
+  margin-bottom: 10px;
+}
+
+/* line 184, ../scss/style.scss */
+
+.scan-pay--list ul li p {
+  color: #3c3c3c;
+  font-size: .6rem;
+}
+
+/* line 188, ../scss/style.scss */
+
+.scan-pay--list ul li:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  width: 1px;
+  height: 16px;
+  background-color: #3c3c3c;
+}
+
+/*# sourceMappingURL=style.css.map */
